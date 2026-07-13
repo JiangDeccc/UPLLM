@@ -1,0 +1,52 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local configuration
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Notebook and editor/system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs, experiment outputs, and temporary workspaces
+log/
+logs/
+llm_io_logs/
+wandb/
+runs/
+outputs/
+output/
+saved/
+checkpoints/
+checkpoint/
+temp/
+tmp/
+sortdict/
+monitor_*.log
+*.log
+
+# Generated embeddings, model checkpoints, and large binary artifacts
+Embeddings/
+*.pkl
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+logs.tar.gz
